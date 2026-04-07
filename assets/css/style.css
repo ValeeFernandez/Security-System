@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body { 
+   font-family:'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../imagenes/fondo.jpg);
+
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.header-content{
+    text-align: center;
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.header-content p{
+    font-size: 18px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 20px;
+}
+.header-content button{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 34px;
+    margin: 7px;
+    background-color: #534945;
+    color: #F9FAFC;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.header-content button:hover{
+    background-color: #71635D;
+}
+.system{
+    padding: 10px 0;
+    background-color: #F2F2F2;
+    position: relative;
+}
+.system-content{
+    text-align: center;
+}
+.system-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #585550;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.system-content h3{
+    font-size: 16px;
+    color: #585550;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.system-content p{
+    font-size: 16px;
+    color: #585550;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.system-group {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.system-group > div {
+    flex: 1; 
+    max-width: 30%; 
+    text-align: center;
+    padding: 20px;
+
+}
+
+.system-group img {
+    width: 140px;
+    margin-bottom: 15px;
+}
+.system-group button{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 34px;
+    margin: 7px;
+    background-color: #746963;
+    color: #F4F0F1;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+ 
+}
+.system-group button:hover{
+    background-color: #585550;
+}
+.register-1{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../imagenes/fondo2.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.register-content h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 35px;
+    color: #F4F0F1;
+}
+
+.register-content table {
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 10px; 
+}
+
+.register-content th {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #C5C2BB;  
+    text-align: center;
+}
+
+.register-content td {
+    padding: 10px;
+    font-size: 18px; 
+    background-color: transparent; 
+    color: #F4F0F1; 
+}
+.adicional{
+    background-color: #F2F2F2;
+    text-align: center;
+    padding: 20px;
+}
+.adicional h3{
+    font-size: 30px;
+    line-height: 70px;
+    color: #585550;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.adicional p{
+    font-size: 20px;
+    color: #585550;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.footer {
+    background-color: #585550; /* Color de fondo del footer */
+    padding: 20px 0; /* Espaciado vertical */
+}
+
+.footer-content {
+    display: flex; /* Utiliza flexbox para alinear las columnas */
+    justify-content: space-around; /* Espaciado igual entre columnas */
+    align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
+    max-width: 1200px; /* Maximo ancho del footer */
+    margin: 0 auto; /* Centra el contenido del footer */
+}
+
+.footer .link {
+    flex: 1; /* Cada columna ocupará el mismo espacio */
+    text-align: center; /* Centra el texto dentro de las columnas */
+    color: #F4F0F1; /* Color de texto */
+}
+
+.footer h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Espaciado inferior para el título de cada columna */
+}
+
+.footer li {
+    margin-bottom: 20px; /* Espaciado inferior para cada enlace */
+    font-size: 18px;
+}
+
+.footer a {
+    color: #F4F0F1; /* Color de enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+.container{
+    margin-top: 30px;
+    text-align: center;
+    color: #F4F0F1;
+}
+
+
+
+
+
+.data-container { margin-top: 50px; }
+        

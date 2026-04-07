@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Seguridad</title>
+    <meta name="description" content="Página web del sistema de seguridad">
+    <meta name="keywords" content="sistema de seguridad">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap.min.css" integrity="sha512-BMbq2It2D3J17/C7aRklzOODG1IQ3+MHw3ifzBHMBwGO/0yUqYmsStgBjI0z5EYlaDEFnvYV7gNYdD3vFLRKsA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content container">
+
+            <h1>¡Bienvenido!</h1>
+            <p> Protege lo que más amas con nuestro sistema de seguridad inteligente. 
+                Monitorea la presencia de personas en tu hogar y controla la temperatura, asegurando un ambiente seguro y confortable. Mantente conectado y tranquilo, sin importar dónde estés. 
+                ¡Tu seguridad es nuestra prioridad! 1
+            </p>
+            <button id="btnEncenderSistema">Encender Sistema</button>
+            <button id="btnApagarSistema">Apagar Sistema</button>
+        </div> 
+    </header>
+    <section class="system">
+        <div class="system-content container">
+            <h2>Funciones del sistema</h2>
+            <div class="system-group">
+
+                <div class="function-1">
+                    <img src="imagenes/temp.png" alt="">
+                    <h3>Estado del Sensor de Temperatura: <span id="estado-temperatura">Cargando...</span></h3>
+                    <p>Temperatura: <span id="temperatura">Cargando...</span> °C</p>
+                    <p>Humedad: <span id="humedad">Cargando...</span> %</p>
+                    <button id="btnTemperatura">Apagar Termostado</button>
+                </div>
+                
+                <div class="function-2">
+                    <img src="imagenes/intruso.png" alt="">
+                    <h3>Estado de Infrarrojo: <span id="estado-infrarojo">Cargando...</span></h3>
+                    <button id="btnInfrarrojo">Apagar Infrarrojo</button>
+                </div>
+    
+                <div class="function-3">
+                    <img src="imagenes/alarma.png" alt="">
+                    <h3>Estado de Alarma: <span id="estado-alarma">Cargando...</span></h3>
+                    <button id="btnAlarma">Apagar Alarma</button>
+                </div>
+    
+            </div>
+        </div>
+        
+    </section>
+
+    <main class="register-1"> 
+        <div class="register-content container">
+            <h2>Registro de Temperatura y Humedad</h2>
+            <table id="data-table" border="1">
+                <thead>
+                    <tr>
+                        <th>Fecha y Hora</th>
+                        <th>Temperatura (°C)</th>
+                        <th>Humedad (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los datos se insertarán aquí -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <div class="adicional">
+        <h3>Gracias por confiar en nosotros</h3>
+        <p>Tu confianza en nosotros es lo que impulsa nuestro compromiso de ofrecer soluciones efectivas y confiables para la seguridad de tu hogar y tu familia.</p>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Información</h3>
+                <li><a href="#">Terminos&Condiciones</a></li>
+                <li><a href="#">Políticas de Privacidad</a></li>
+                <li><a href="#">Sugerencias</a></li>
+            </div>
+            <div class="link">
+                <h3>Contactos</h3>
+                <li><a href="#">Correo: sistemasr@gmail.com</a></li>
+                <li><a href="#">Teléfono:+506 2433-5533</a></li>
+                <li><a href="#">Soporte: sistemasr.com</a></li>
+            </div>
+            <div class="link">
+                <h3>Creadora</h3>
+                <li><a href="#">Lelany Fernández Carvajal</a></li>
+            </div>
+        </div>
+        <div class="container">
+            © 2024 Derechos Reservados: <a href="https://tusitio.com/" class="text-white text-decoration-none">sistemasr.com</a>
+          </div>
+    </footer>
+
+    
+</body>
+</html>
