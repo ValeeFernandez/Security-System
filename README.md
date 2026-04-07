@@ -76,8 +76,7 @@ Proyecto desarrollado como implementación práctica de:
 
 Interfaz web desarrollada por:
 
-**Lelany Fernández**
-**Randall Álvarez**
+**Lelany Fernández** y **Randall Álvarez.**
 Proyecto académico colaborativo basado en Arduino.
 
 ---
